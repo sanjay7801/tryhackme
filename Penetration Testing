@@ -14,4 +14,50 @@ Hackers are sorted into three hats, where their ethics and motivations behind th
      Grey Hat	       These people use their skills to benefit others often; however, they do not respect/follow the law or ethical standards at all times.	               For example, someone taking down a scamming site.
       Black Hat	            These people  are criminals and often seek to damage organisations or gain some form of financial benefit at the cost of others.         	For example, ransomware authors infect devices with malicious code and hold data for ransom.
 
+Rules of Engagement (ROE)
+
+                The ROE is a document that is created at the initial stages of a penetration testing engagement. This document consists of three main sections (explained in the table below), which are ultimately responsible for deciding how the engagement is carried out.
+
+
+Penetration Testing Methodologies
+
+OWASP - Open Web Application Security Project
+OSSTMM - Open source security testing methodology manual
+NIST Cybersecurity Framework 1.1
+NCSC CAF    CAF - Cyber Assessment Framework
+
+            The framework applies to organisations considered to perform "vitally important services and activities" such as critical infrastructure, banking, and the likes. The framework mainly focuses on and assesses the following topics:
+
+                        Data security
+                        System security
+                        Identity and access control
+                        Resiliency
+                        Monitoring
+                        Response and recovery planning
+
+
+Black box, White box, Grey box Penetration Testing 
+
+Black box - No Knowledge
+
+                This testing process is a high-level process where the tester is not given any information about the inner workings of the application or service.
+                Black-Box testing significantly increases the amount of time spent during the information gathering and enumeration phase to understand the attack surface of the target.
+
+Gery Box - Full Knowledge
+
+                This testing process is the most popular for things such as penetration testing. It is a combination of both black-box and white-box testing processes.
+                The tester will have some limited knowledge of the internal components of the application or piece of software. Still, it will be interacting with the application as if it were a black-box scenario and then using their knowledge of the application to try and resolve issues as they find them.
+                With Grey-Box testing, the limited knowledge given saves time, and is often chosen for extremely well-hardened attack surfaces.
+
+White Box - Partial Knowledge  
+
+               This testing process is a low-level process usually done by a software developer who knows programming and application logic. 
+               The tester will be testing the internal components of the application or piece of software and, for example, ensuring that specific functions work correctly and within a reasonable amount of time.
+               The tester will have full knowledge of the application and its expected behaviour and is much more time consuming than black-box testing. The full knowledge in a White-Box testing scenario provides a testing approach that guarantees the entire attack surface can be validated. 
+
+Practical: ACME Penetration Test
+
+
+
+
 
